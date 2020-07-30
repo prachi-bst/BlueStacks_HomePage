@@ -1,0 +1,104 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+body{
+  /*position: relative;*/
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(back3.jpg);
+  background-size: cover;
+  background-attachment:scroll;
+  background-position: relative;
+  background-repeat:no-repeat;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+font-family:Arial, Helvetica, sans-serif;
+outline-width: thin;
+}
+.container{
+  position: relative;
+}
+.left1{
+  position: relative;
+}
+.right1{
+  position: relative;
+  top: -10px;
+}
+
+@media(max-width:1024px) .logo .logo_a .img_class
+{
+max-width: 115px;
+}
+.logo .logo_a .img_class
+{
+  position: absolute;
+  top: 35px;
+  left: 120px;
+  height:38px;
+  max-width: 115px;
+  display: inline-block;
+}
+img{
+  vertical-align: middle;
+  border-style: none;
+}
+#header_menu{
+height: 50px;
+}
+ul{
+  position: absolute;
+  float:right;
+  top: 25px;
+  left: 320px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*display: flex;*/
+}
+#header_menu ul li {
+  display: inline-block;
+  line-height: 50px;
+  transition: 0.6s all;
+}
+.left1 .fa{
+  position: relative;
+  left:-15px;
+}
+#header_menu ul li a{
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+  padding: 20px;
+}
+#part1  li a:hover{
+  color: white;
+}
+.sub_menu{
+  display: none;
+}
+ul li a:hover .sub_menu{
+  display: block;
+ position:absolute;
+}
+.search{
+  position: relative;
+  float:right;
+  right: 40%;
+}
+.box{
+  position: relative;
+  float:right;
+  right: 20%;
+top:-15px;
+  }
+  .right1 #down{
+    position: relative;
+    float:right;
+    text-decoration: none;
+    font-size: 110%;
+  padding: 10px;
+    color: rgb(245,245,245);
+    background-color: rgb(129, 218, 28);
+    
+    top: -25px; 
+  }
+  
